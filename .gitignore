@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+.scannerwork/
+storybook-static/
+debug-storybook.log
+.vscode/mcp.json

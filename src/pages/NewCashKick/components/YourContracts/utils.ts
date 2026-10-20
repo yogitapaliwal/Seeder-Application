@@ -1,0 +1,3 @@
+const CONTRACTS_COLUMN_WIDTHS: number[] = [144, 124, 160, 144, 160];
+
+export { CONTRACTS_COLUMN_WIDTHS };

@@ -1,0 +1,1164 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "funding": {
+    "approvedAmount": 8800000,
+    "availableAmount": 0,
+    "status": "no_credit",
+    "asOfDate": "2021-04-02",
+    "nextPayment": {
+      "dueDate": "2021-05-03",
+      "dueInDays": 31,
+      "amount": 14204.55
+    },
+    "outstanding": {
+      "amount": 170454.55,
+      "percentagePaid": 0
+    }
+  },
+  "cashAcceleration": {
+    "termCapMonths": 12,
+    "availableCredit": 0,
+    "maxInterestRate": 12,
+    "availableForNewCashKick": 0
+  },
+  "payments": [
+    {
+      "id": "1",
+      "dueDate": "2021-05-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 156250
+    },
+    {
+      "id": "2",
+      "dueDate": "2021-06-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 142045.45
+    },
+    {
+      "id": "3",
+      "dueDate": "2021-07-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 127840.9
+    },
+    {
+      "id": "4",
+      "dueDate": "2021-08-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 113636.35
+    },
+    {
+      "id": "5",
+      "dueDate": "2021-09-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 99431.8
+    },
+    {
+      "id": "6",
+      "dueDate": "2021-10-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 85227.25
+    },
+    {
+      "id": "7",
+      "dueDate": "2021-11-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 71022.7
+    },
+    {
+      "id": "8",
+      "dueDate": "2021-12-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 56818.15
+    },
+    {
+      "id": "9",
+      "dueDate": "2022-01-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 42613.6
+    },
+    {
+      "id": "10",
+      "dueDate": "2022-02-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 28409.05
+    },
+    {
+      "id": "11",
+      "dueDate": "2022-03-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 14204.5
+    },
+    {
+      "id": "12",
+      "dueDate": "2022-04-03",
+      "status": "Pending",
+      "expectedAmount": -14204.55,
+      "outstandingAmount": 0
+    }
+  ],
+  "cashkicks": [
+    {
+      "id": "1",
+      "name": "Cash Kick - March 2021",
+      "status": "Pending",
+      "maturity": "2021-09-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "2",
+      "name": "Cash Kick - February 2021",
+      "status": "Approved",
+      "maturity": "2021-08-15",
+      "totalReceived": 494000,
+      "feePercentage": 6.5,
+      "totalFinanced": 526110
+    },
+    {
+      "id": "3",
+      "name": "Cash Kick - January 2021",
+      "status": "Rejected",
+      "maturity": "2021-07-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "4",
+      "name": "Cash Kick - December 2020",
+      "status": "Pending",
+      "maturity": "2021-06-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "5",
+      "name": "Cash Kick - November 2020",
+      "status": "Approved",
+      "maturity": "2021-05-15",
+      "totalReceived": 476000,
+      "feePercentage": 6.5,
+      "totalFinanced": 506940
+    },
+    {
+      "id": "6",
+      "name": "Cash Kick - October 2020",
+      "status": "Rejected",
+      "maturity": "2021-04-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "7",
+      "name": "Cash Kick - September 2020",
+      "status": "Pending",
+      "maturity": "2021-03-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "8",
+      "name": "Cash Kick - August 2020",
+      "status": "Approved",
+      "maturity": "2021-02-15",
+      "totalReceived": 458000,
+      "feePercentage": 6.5,
+      "totalFinanced": 487770
+    },
+    {
+      "id": "9",
+      "name": "Cash Kick - July 2020",
+      "status": "Rejected",
+      "maturity": "2021-01-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "10",
+      "name": "Cash Kick - June 2020",
+      "status": "Pending",
+      "maturity": "2020-12-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "11",
+      "name": "Cash Kick - May 2020",
+      "status": "Approved",
+      "maturity": "2020-11-15",
+      "totalReceived": 440000,
+      "feePercentage": 6.5,
+      "totalFinanced": 468600
+    },
+    {
+      "id": "12",
+      "name": "Cash Kick - April 2020",
+      "status": "Rejected",
+      "maturity": "2020-10-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "13",
+      "name": "Cash Kick - March 2020",
+      "status": "Pending",
+      "maturity": "2020-09-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "14",
+      "name": "Cash Kick - February 2020",
+      "status": "Approved",
+      "maturity": "2020-08-15",
+      "totalReceived": 422000,
+      "feePercentage": 6.5,
+      "totalFinanced": 449430
+    },
+    {
+      "id": "15",
+      "name": "Cash Kick - January 2020",
+      "status": "Rejected",
+      "maturity": "2020-07-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "16",
+      "name": "Cash Kick - December 2019",
+      "status": "Pending",
+      "maturity": "2020-06-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "17",
+      "name": "Cash Kick - November 2019",
+      "status": "Approved",
+      "maturity": "2020-05-15",
+      "totalReceived": 404000,
+      "feePercentage": 6.5,
+      "totalFinanced": 430260
+    },
+    {
+      "id": "18",
+      "name": "Cash Kick - October 2019",
+      "status": "Rejected",
+      "maturity": "2020-04-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "19",
+      "name": "Cash Kick - September 2019",
+      "status": "Pending",
+      "maturity": "2020-03-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "20",
+      "name": "Cash Kick - August 2019",
+      "status": "Approved",
+      "maturity": "2020-02-15",
+      "totalReceived": 386000,
+      "feePercentage": 6.5,
+      "totalFinanced": 411090
+    },
+    {
+      "id": "21",
+      "name": "Cash Kick - July 2019",
+      "status": "Rejected",
+      "maturity": "2020-01-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "22",
+      "name": "Cash Kick - June 2019",
+      "status": "Pending",
+      "maturity": "2019-12-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "23",
+      "name": "Cash Kick - May 2019",
+      "status": "Approved",
+      "maturity": "2019-11-15",
+      "totalReceived": 368000,
+      "feePercentage": 6.5,
+      "totalFinanced": 391920
+    },
+    {
+      "id": "24",
+      "name": "Cash Kick - April 2019",
+      "status": "Rejected",
+      "maturity": "2019-10-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "25",
+      "name": "Cash Kick - March 2019",
+      "status": "Pending",
+      "maturity": "2019-09-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "26",
+      "name": "Cash Kick - February 2019",
+      "status": "Approved",
+      "maturity": "2019-08-15",
+      "totalReceived": 350000,
+      "feePercentage": 6.5,
+      "totalFinanced": 372750
+    },
+    {
+      "id": "27",
+      "name": "Cash Kick - January 2019",
+      "status": "Rejected",
+      "maturity": "2019-07-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "28",
+      "name": "Cash Kick - December 2018",
+      "status": "Pending",
+      "maturity": "2019-06-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "29",
+      "name": "Cash Kick - November 2018",
+      "status": "Approved",
+      "maturity": "2019-05-15",
+      "totalReceived": 332000,
+      "feePercentage": 6.5,
+      "totalFinanced": 353580
+    },
+    {
+      "id": "30",
+      "name": "Cash Kick - October 2018",
+      "status": "Rejected",
+      "maturity": "2019-04-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "31",
+      "name": "Cash Kick - September 2018",
+      "status": "Pending",
+      "maturity": "2019-03-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "32",
+      "name": "Cash Kick - August 2018",
+      "status": "Approved",
+      "maturity": "2019-02-15",
+      "totalReceived": 314000,
+      "feePercentage": 6.5,
+      "totalFinanced": 334410
+    },
+    {
+      "id": "33",
+      "name": "Cash Kick - July 2018",
+      "status": "Rejected",
+      "maturity": "2019-01-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "34",
+      "name": "Cash Kick - June 2018",
+      "status": "Pending",
+      "maturity": "2018-12-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "35",
+      "name": "Cash Kick - May 2018",
+      "status": "Approved",
+      "maturity": "2018-11-15",
+      "totalReceived": 296000,
+      "feePercentage": 6.5,
+      "totalFinanced": 315240
+    },
+    {
+      "id": "36",
+      "name": "Cash Kick - April 2018",
+      "status": "Rejected",
+      "maturity": "2018-10-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "37",
+      "name": "Cash Kick - March 2018",
+      "status": "Pending",
+      "maturity": "2018-09-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "38",
+      "name": "Cash Kick - February 2018",
+      "status": "Approved",
+      "maturity": "2018-08-15",
+      "totalReceived": 278000,
+      "feePercentage": 6.5,
+      "totalFinanced": 296070
+    },
+    {
+      "id": "39",
+      "name": "Cash Kick - January 2018",
+      "status": "Rejected",
+      "maturity": "2018-07-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "40",
+      "name": "Cash Kick - December 2017",
+      "status": "Pending",
+      "maturity": "2018-06-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "41",
+      "name": "Cash Kick - November 2017",
+      "status": "Approved",
+      "maturity": "2018-05-15",
+      "totalReceived": 260000,
+      "feePercentage": 6.5,
+      "totalFinanced": 276900
+    },
+    {
+      "id": "42",
+      "name": "Cash Kick - October 2017",
+      "status": "Rejected",
+      "maturity": "2018-04-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "43",
+      "name": "Cash Kick - September 2017",
+      "status": "Pending",
+      "maturity": "2018-03-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "44",
+      "name": "Cash Kick - August 2017",
+      "status": "Approved",
+      "maturity": "2018-02-15",
+      "totalReceived": 242000,
+      "feePercentage": 6.5,
+      "totalFinanced": 257730
+    },
+    {
+      "id": "45",
+      "name": "Cash Kick - July 2017",
+      "status": "Rejected",
+      "maturity": "2018-01-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "46",
+      "name": "Cash Kick - June 2017",
+      "status": "Pending",
+      "maturity": "2017-12-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "47",
+      "name": "Cash Kick - May 2017",
+      "status": "Approved",
+      "maturity": "2017-11-15",
+      "totalReceived": 224000,
+      "feePercentage": 6.5,
+      "totalFinanced": 238560
+    },
+    {
+      "id": "48",
+      "name": "Cash Kick - April 2017",
+      "status": "Rejected",
+      "maturity": "2017-10-15",
+      "totalReceived": 0,
+      "feePercentage": 0,
+      "totalFinanced": 0
+    },
+    {
+      "id": "49",
+      "name": "Cash Kick - March 2017",
+      "status": "Pending",
+      "maturity": "2017-09-15",
+      "totalReceived": 0,
+      "feePercentage": 6.5,
+      "totalFinanced": 0
+    },
+    {
+      "id": "50",
+      "name": "Cash Kick - February 2017",
+      "status": "Approved",
+      "maturity": "2017-08-15",
+      "totalReceived": 206000,
+      "feePercentage": 6.5,
+      "totalFinanced": 219390
+    }
+  ],
+  "contracts": [
+    {
+      "id": "1",
+      "name": "Contract - Acme Corp",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 15000,
+      "totalFinanced": null,
+      "totalAvailable": 200000,
+      "termLengthMonths": 12,
+      "feePercentage": 4.5,
+      "paymentAmount": 15000
+    },
+    {
+      "id": "2",
+      "name": "Contract - Globex Inc",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 17500,
+      "totalFinanced": 178200,
+      "totalAvailable": 198000,
+      "termLengthMonths": 24,
+      "feePercentage": 5,
+      "paymentAmount": 17500
+    },
+    {
+      "id": "3",
+      "name": "Contract - Initech LLC",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 20000,
+      "totalFinanced": 176400,
+      "totalAvailable": 196000,
+      "termLengthMonths": 12,
+      "feePercentage": 5.5,
+      "paymentAmount": 20000
+    },
+    {
+      "id": "4",
+      "name": "Contract - Umbrella Co",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 22500,
+      "totalFinanced": null,
+      "totalAvailable": 194000,
+      "termLengthMonths": 12,
+      "feePercentage": 6,
+      "paymentAmount": 22500
+    },
+    {
+      "id": "5",
+      "name": "Contract - Stark Industries",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 25000,
+      "totalFinanced": 172800,
+      "totalAvailable": 192000,
+      "termLengthMonths": 24,
+      "feePercentage": 6.5,
+      "paymentAmount": 25000
+    },
+    {
+      "id": "6",
+      "name": "Contract - Wayne Enterprises",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 27500,
+      "totalFinanced": 171000,
+      "totalAvailable": 190000,
+      "termLengthMonths": 12,
+      "feePercentage": 4.5,
+      "paymentAmount": 27500
+    },
+    {
+      "id": "7",
+      "name": "Contract - Wonka Industries",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 30000,
+      "totalFinanced": null,
+      "totalAvailable": 188000,
+      "termLengthMonths": 12,
+      "feePercentage": 5,
+      "paymentAmount": 30000
+    },
+    {
+      "id": "8",
+      "name": "Contract - Hooli",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 32500,
+      "totalFinanced": 167400,
+      "totalAvailable": 186000,
+      "termLengthMonths": 24,
+      "feePercentage": 5.5,
+      "paymentAmount": 32500
+    },
+    {
+      "id": "9",
+      "name": "Contract - Pied Piper",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 35000,
+      "totalFinanced": 165600,
+      "totalAvailable": 184000,
+      "termLengthMonths": 12,
+      "feePercentage": 6,
+      "paymentAmount": 35000
+    },
+    {
+      "id": "10",
+      "name": "Contract - Massive Dynamic",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 37500,
+      "totalFinanced": null,
+      "totalAvailable": 182000,
+      "termLengthMonths": 12,
+      "feePercentage": 6.5,
+      "paymentAmount": 37500
+    },
+    {
+      "id": "11",
+      "name": "Contract - Soylent Corp",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 40000,
+      "totalFinanced": 162000,
+      "totalAvailable": 180000,
+      "termLengthMonths": 24,
+      "feePercentage": 4.5,
+      "paymentAmount": 40000
+    },
+    {
+      "id": "12",
+      "name": "Contract - Cyberdyne Systems",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 42500,
+      "totalFinanced": 160200,
+      "totalAvailable": 178000,
+      "termLengthMonths": 12,
+      "feePercentage": 5,
+      "paymentAmount": 42500
+    },
+    {
+      "id": "13",
+      "name": "Contract - Oscorp",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 45000,
+      "totalFinanced": null,
+      "totalAvailable": 176000,
+      "termLengthMonths": 12,
+      "feePercentage": 5.5,
+      "paymentAmount": 45000
+    },
+    {
+      "id": "14",
+      "name": "Contract - LexCorp",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 47500,
+      "totalFinanced": 156600,
+      "totalAvailable": 174000,
+      "termLengthMonths": 24,
+      "feePercentage": 6,
+      "paymentAmount": 47500
+    },
+    {
+      "id": "15",
+      "name": "Contract - Aperture Science",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 50000,
+      "totalFinanced": 154800,
+      "totalAvailable": 172000,
+      "termLengthMonths": 12,
+      "feePercentage": 6.5,
+      "paymentAmount": 50000
+    },
+    {
+      "id": "16",
+      "name": "Contract - Black Mesa",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 52500,
+      "totalFinanced": null,
+      "totalAvailable": 170000,
+      "termLengthMonths": 12,
+      "feePercentage": 4.5,
+      "paymentAmount": 52500
+    },
+    {
+      "id": "17",
+      "name": "Contract - Weyland-Yutani",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 55000,
+      "totalFinanced": 151200,
+      "totalAvailable": 168000,
+      "termLengthMonths": 24,
+      "feePercentage": 5,
+      "paymentAmount": 55000
+    },
+    {
+      "id": "18",
+      "name": "Contract - Tyrell Corp",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 57500,
+      "totalFinanced": 149400,
+      "totalAvailable": 166000,
+      "termLengthMonths": 12,
+      "feePercentage": 5.5,
+      "paymentAmount": 57500
+    },
+    {
+      "id": "19",
+      "name": "Contract - Vandelay Industries",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 60000,
+      "totalFinanced": null,
+      "totalAvailable": 164000,
+      "termLengthMonths": 12,
+      "feePercentage": 6,
+      "paymentAmount": 60000
+    },
+    {
+      "id": "20",
+      "name": "Contract - Sirius Cybernetics",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 62500,
+      "totalFinanced": 145800,
+      "totalAvailable": 162000,
+      "termLengthMonths": 24,
+      "feePercentage": 6.5,
+      "paymentAmount": 62500
+    },
+    {
+      "id": "21",
+      "name": "Contract - Nakatomi Trading",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 65000,
+      "totalFinanced": 144000,
+      "totalAvailable": 160000,
+      "termLengthMonths": 12,
+      "feePercentage": 4.5,
+      "paymentAmount": 65000
+    },
+    {
+      "id": "22",
+      "name": "Contract - Gekko & Co",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 67500,
+      "totalFinanced": null,
+      "totalAvailable": 158000,
+      "termLengthMonths": 12,
+      "feePercentage": 5,
+      "paymentAmount": 67500
+    },
+    {
+      "id": "23",
+      "name": "Contract - Buy n Large",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 70000,
+      "totalFinanced": 140400,
+      "totalAvailable": 156000,
+      "termLengthMonths": 24,
+      "feePercentage": 5.5,
+      "paymentAmount": 70000
+    },
+    {
+      "id": "24",
+      "name": "Contract - Duff Beer Co",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 72500,
+      "totalFinanced": 138600,
+      "totalAvailable": 154000,
+      "termLengthMonths": 12,
+      "feePercentage": 6,
+      "paymentAmount": 72500
+    },
+    {
+      "id": "25",
+      "name": "Contract - Monarch Industries",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 75000,
+      "totalFinanced": null,
+      "totalAvailable": 152000,
+      "termLengthMonths": 12,
+      "feePercentage": 6.5,
+      "paymentAmount": 75000
+    },
+    {
+      "id": "26",
+      "name": "Contract - Genco Pura Olive Oil",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 77500,
+      "totalFinanced": 135000,
+      "totalAvailable": 150000,
+      "termLengthMonths": 24,
+      "feePercentage": 4.5,
+      "paymentAmount": 77500
+    },
+    {
+      "id": "27",
+      "name": "Contract - Los Pollos Hermanos",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 80000,
+      "totalFinanced": 133200,
+      "totalAvailable": 148000,
+      "termLengthMonths": 12,
+      "feePercentage": 5,
+      "paymentAmount": 80000
+    },
+    {
+      "id": "28",
+      "name": "Contract - Dunder Mifflin",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 82500,
+      "totalFinanced": null,
+      "totalAvailable": 146000,
+      "termLengthMonths": 12,
+      "feePercentage": 5.5,
+      "paymentAmount": 82500
+    },
+    {
+      "id": "29",
+      "name": "Contract - Prestige Worldwide",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 85000,
+      "totalFinanced": 129600,
+      "totalAvailable": 144000,
+      "termLengthMonths": 24,
+      "feePercentage": 6,
+      "paymentAmount": 85000
+    },
+    {
+      "id": "30",
+      "name": "Contract - Bluth Company",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 87500,
+      "totalFinanced": 127800,
+      "totalAvailable": 142000,
+      "termLengthMonths": 12,
+      "feePercentage": 6.5,
+      "paymentAmount": 87500
+    },
+    {
+      "id": "31",
+      "name": "Contract - Acme Corp 2",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 90000,
+      "totalFinanced": null,
+      "totalAvailable": 140000,
+      "termLengthMonths": 12,
+      "feePercentage": 4.5,
+      "paymentAmount": 90000
+    },
+    {
+      "id": "32",
+      "name": "Contract - Globex Inc 2",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 92500,
+      "totalFinanced": 124200,
+      "totalAvailable": 138000,
+      "termLengthMonths": 24,
+      "feePercentage": 5,
+      "paymentAmount": 92500
+    },
+    {
+      "id": "33",
+      "name": "Contract - Initech LLC 2",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 95000,
+      "totalFinanced": 122400,
+      "totalAvailable": 136000,
+      "termLengthMonths": 12,
+      "feePercentage": 5.5,
+      "paymentAmount": 95000
+    },
+    {
+      "id": "34",
+      "name": "Contract - Umbrella Co 2",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 97500,
+      "totalFinanced": null,
+      "totalAvailable": 134000,
+      "termLengthMonths": 12,
+      "feePercentage": 6,
+      "paymentAmount": 97500
+    },
+    {
+      "id": "35",
+      "name": "Contract - Stark Industries 2",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 100000,
+      "totalFinanced": 118800,
+      "totalAvailable": 132000,
+      "termLengthMonths": 24,
+      "feePercentage": 6.5,
+      "paymentAmount": 100000
+    },
+    {
+      "id": "36",
+      "name": "Contract - Wayne Enterprises 2",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 102500,
+      "totalFinanced": 117000,
+      "totalAvailable": 130000,
+      "termLengthMonths": 12,
+      "feePercentage": 4.5,
+      "paymentAmount": 102500
+    },
+    {
+      "id": "37",
+      "name": "Contract - Wonka Industries 2",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 105000,
+      "totalFinanced": null,
+      "totalAvailable": 128000,
+      "termLengthMonths": 12,
+      "feePercentage": 5,
+      "paymentAmount": 105000
+    },
+    {
+      "id": "38",
+      "name": "Contract - Hooli 2",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 107500,
+      "totalFinanced": 113400,
+      "totalAvailable": 126000,
+      "termLengthMonths": 24,
+      "feePercentage": 5.5,
+      "paymentAmount": 107500
+    },
+    {
+      "id": "39",
+      "name": "Contract - Pied Piper 2",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 110000,
+      "totalFinanced": 111600,
+      "totalAvailable": 124000,
+      "termLengthMonths": 12,
+      "feePercentage": 6,
+      "paymentAmount": 110000
+    },
+    {
+      "id": "40",
+      "name": "Contract - Massive Dynamic 2",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 112500,
+      "totalFinanced": null,
+      "totalAvailable": 122000,
+      "termLengthMonths": 12,
+      "feePercentage": 6.5,
+      "paymentAmount": 112500
+    },
+    {
+      "id": "41",
+      "name": "Contract - Soylent Corp 2",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 115000,
+      "totalFinanced": 108000,
+      "totalAvailable": 120000,
+      "termLengthMonths": 24,
+      "feePercentage": 4.5,
+      "paymentAmount": 115000
+    },
+    {
+      "id": "42",
+      "name": "Contract - Cyberdyne Systems 2",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 117500,
+      "totalFinanced": 106200,
+      "totalAvailable": 118000,
+      "termLengthMonths": 12,
+      "feePercentage": 5,
+      "paymentAmount": 117500
+    },
+    {
+      "id": "43",
+      "name": "Contract - Oscorp 2",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 120000,
+      "totalFinanced": null,
+      "totalAvailable": 116000,
+      "termLengthMonths": 12,
+      "feePercentage": 5.5,
+      "paymentAmount": 120000
+    },
+    {
+      "id": "44",
+      "name": "Contract - LexCorp 2",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 122500,
+      "totalFinanced": 102600,
+      "totalAvailable": 114000,
+      "termLengthMonths": 24,
+      "feePercentage": 6,
+      "paymentAmount": 122500
+    },
+    {
+      "id": "45",
+      "name": "Contract - Aperture Science 2",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 125000,
+      "totalFinanced": 100800,
+      "totalAvailable": 112000,
+      "termLengthMonths": 12,
+      "feePercentage": 6.5,
+      "paymentAmount": 125000
+    },
+    {
+      "id": "46",
+      "name": "Contract - Black Mesa 2",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 127500,
+      "totalFinanced": null,
+      "totalAvailable": 110000,
+      "termLengthMonths": 12,
+      "feePercentage": 4.5,
+      "paymentAmount": 127500
+    },
+    {
+      "id": "47",
+      "name": "Contract - Weyland-Yutani 2",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 130000,
+      "totalFinanced": 97200,
+      "totalAvailable": 108000,
+      "termLengthMonths": 24,
+      "feePercentage": 5,
+      "paymentAmount": 130000
+    },
+    {
+      "id": "48",
+      "name": "Contract - Tyrell Corp 2",
+      "status": "Completed",
+      "type": "Annually",
+      "perPayment": 132500,
+      "totalFinanced": 95400,
+      "totalAvailable": 106000,
+      "termLengthMonths": 12,
+      "feePercentage": 5.5,
+      "paymentAmount": 132500
+    },
+    {
+      "id": "49",
+      "name": "Contract - Vandelay Industries 2",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 135000,
+      "totalFinanced": null,
+      "totalAvailable": 104000,
+      "termLengthMonths": 12,
+      "feePercentage": 6,
+      "paymentAmount": 135000
+    },
+    {
+      "id": "50",
+      "name": "Contract - Sirius Cybernetics 2",
+      "status": "Financed",
+      "type": "Quarterly",
+      "perPayment": 137500,
+      "totalFinanced": 91800,
+      "totalAvailable": 102000,
+      "termLengthMonths": 24,
+      "feePercentage": 6.5,
+      "paymentAmount": 137500
+    }
+  ]
+}

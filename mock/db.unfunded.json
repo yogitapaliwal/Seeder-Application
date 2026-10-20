@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "funding": {
+    "approvedAmount": 880000,
+    "availableAmount": 880000,
+    "status": "onboarding",
+    "asOfDate": "2021-04-02",
+    "nextPayment": null,
+    "outstanding": {
+      "amount": 0,
+      "percentagePaid": 0
+    }
+  },
+  "cashAcceleration": {
+    "termCapMonths": 0,
+    "availableCredit": 880000,
+    "maxInterestRate": 0,
+    "availableForNewCashKick": 880000
+  },
+  "payments": [],
+  "cashkicks": [],
+  "contracts": []
+}
